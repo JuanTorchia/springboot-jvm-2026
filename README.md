@@ -1,11 +1,9 @@
 # Spring Boot JVM Startup Lab 2026
 
-Related article: pending.
+Related article:
 
-Article links will be added here after publication:
-
-- English: pending
-- Spanish: pending
+- English: [Spring Boot 2026: Why Measuring Only Startup Time Is a Trap](https://juanchi.dev/en/blog/spring-boot-startup-time-2026-graalvm-native-aot-cds)
+- Spanish: [Spring Boot 2026: por que medir solo startup time es una trampa](https://juanchi.dev/es/blog/spring-boot-startup-time-2026-graalvm-native-aot-cds)
 
 Reproducible lab for comparing Spring Boot startup and early-runtime tradeoffs across JVM execution modes.
 

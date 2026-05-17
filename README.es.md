@@ -1,11 +1,9 @@
 # Laboratorio Spring Boot JVM Startup 2026
 
-Articulo relacionado: pendiente.
+Articulo relacionado:
 
-Links del articulo para agregar despues de publicar:
-
-- Espanol: pendiente
-- Ingles: pendiente
+- Espanol: [Spring Boot 2026: por que medir solo startup time es una trampa](https://juanchi.dev/es/blog/spring-boot-startup-time-2026-graalvm-native-aot-cds)
+- Ingles: [Spring Boot 2026: Why Measuring Only Startup Time Is a Trap](https://juanchi.dev/en/blog/spring-boot-startup-time-2026-graalvm-native-aot-cds)
 
 Laboratorio reproducible para comparar startup y tradeoffs tempranos de runtime en distintos modos de ejecucion de Spring Boot.
 
