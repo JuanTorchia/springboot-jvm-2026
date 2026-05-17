@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="420" viewBox="0 0 860 420">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="36" font-family="Arial" font-size="22" font-weight="700">Startup by mode (ms)</text>
+<text x="24" y="116.8" font-family="Arial" font-size="14">aot-jvm</text>
+<rect x="150" y="70.0" width="511.0" height="72.0" fill="#2f6f73"/>
+<text x="669.0" y="116.8" font-family="Arial" font-size="13">7507.04</text>
+<text x="24" y="202.8" font-family="Arial" font-size="14">cds</text>
+<rect x="150" y="156.0" width="591.5" height="72.0" fill="#2f6f73"/>
+<text x="749.5" y="202.8" font-family="Arial" font-size="13">8688.85</text>
+<text x="24" y="288.8" font-family="Arial" font-size="14">jvm</text>
+<rect x="150" y="242.0" width="670.0" height="72.0" fill="#2f6f73"/>
+<text x="828.0" y="288.8" font-family="Arial" font-size="13">9842.06</text>
+<text x="24" y="374.8" font-family="Arial" font-size="14">native</text>
+<rect x="150" y="328.0" width="97.7" height="72.0" fill="#2f6f73"/>
+<text x="255.7" y="374.8" font-family="Arial" font-size="13">1434.87</text>
+</svg>

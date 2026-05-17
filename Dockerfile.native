@@ -1,0 +1,23 @@
+FROM ghcr.io/graalvm/native-image-community:21 AS builder
+
+WORKDIR /workspace
+RUN microdnf install -y maven && microdnf clean all
+COPY .mvn/ .mvn/
+COPY mvnw pom.xml ./
+COPY src/ src/
+RUN chmod +x ./mvnw && ./mvnw -Pnative -DskipTests native:compile
+
+FROM ubuntu:24.04
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /workspace
+COPY --from=builder /workspace/target/startup-lab /workspace/startup-lab
+
+ENV SERVER_PORT=8080
+ENV SPRING_PROFILES_ACTIVE=benchmark
+EXPOSE 8080
+
+ENTRYPOINT ["/workspace/startup-lab"]

@@ -1,0 +1,18 @@
+{
+  "mode": "native",
+  "run": 2,
+  "startup_time_ms": 1167.69,
+  "first_request_latency_ms": 5.33,
+  "warm_request_p50_ms": 5.44,
+  "warm_request_p95_ms": 27.27,
+  "warm_request_p99_ms": 29.65,
+  "rss_memory_mb": 68.62,
+  "image_size_mb": 65.49,
+  "artifact_size_mb": 107.45,
+  "build_time_seconds": 573.817,
+  "appcds_preparation_time_seconds": 0,
+  "successful_requests_per_second": 103.94,
+  "error_rate": 0.0,
+  "compatibility_notes": "GraalVM Native Image built in Docker",
+  "runtime_verification": "native executable container; no JVM runtime flags"
+}

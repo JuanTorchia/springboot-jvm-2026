@@ -1,0 +1,18 @@
+{
+  "mode": "jvm",
+  "run": 1,
+  "startup_time_ms": 8963.45,
+  "first_request_latency_ms": 27.32,
+  "warm_request_p50_ms": 8.12,
+  "warm_request_p95_ms": 28.98,
+  "warm_request_p99_ms": 31.34,
+  "rss_memory_mb": 285.0,
+  "image_size_mb": 120.74,
+  "artifact_size_mb": 29.82,
+  "build_time_seconds": 10.443,
+  "appcds_preparation_time_seconds": 0,
+  "successful_requests_per_second": 83.29,
+  "error_rate": 0.0,
+  "compatibility_notes": "baseline JVM jar",
+  "runtime_verification": "JAVA_TOOL_OPTIONS=<empty>"
+}

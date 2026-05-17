@@ -1,0 +1,10 @@
+FROM eclipse-temurin:21-jre-jammy
+
+WORKDIR /workspace
+COPY target/springboot-jvm-startup-lab-0.1.0-SNAPSHOT.jar app.jar
+
+ENV SERVER_PORT=8080
+ENV SPRING_PROFILES_ACTIVE=benchmark
+EXPOSE 8080
+
+ENTRYPOINT ["sh", "-c", "exec java $JAVA_TOOL_OPTIONS -jar /workspace/app.jar"]

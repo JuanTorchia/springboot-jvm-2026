@@ -1,0 +1,18 @@
+{
+  "mode": "aot-jvm",
+  "run": 1,
+  "startup_time_ms": 8275.1,
+  "first_request_latency_ms": 31.87,
+  "warm_request_p50_ms": 7.82,
+  "warm_request_p95_ms": 25.54,
+  "warm_request_p99_ms": 32.47,
+  "rss_memory_mb": 269.1,
+  "image_size_mb": 121.0,
+  "artifact_size_mb": 29.82,
+  "build_time_seconds": 24.692,
+  "appcds_preparation_time_seconds": 0,
+  "successful_requests_per_second": 80.15,
+  "error_rate": 0.0,
+  "compatibility_notes": "Spring Boot AOT generated code running on JVM; runtime flag spring.aot.enabled=true",
+  "runtime_verification": "spring.aot.enabled=true verified in container env"
+}

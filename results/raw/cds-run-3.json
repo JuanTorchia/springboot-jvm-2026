@@ -1,0 +1,18 @@
+{
+  "mode": "cds",
+  "run": 3,
+  "startup_time_ms": 6848.57,
+  "first_request_latency_ms": 36.61,
+  "warm_request_p50_ms": 7.88,
+  "warm_request_p95_ms": 28.77,
+  "warm_request_p99_ms": 34.48,
+  "rss_memory_mb": 323.0,
+  "image_size_mb": 120.74,
+  "artifact_size_mb": 29.82,
+  "build_time_seconds": 10.443,
+  "appcds_preparation_time_seconds": 12.126,
+  "successful_requests_per_second": 78.91,
+  "error_rate": 0.0,
+  "compatibility_notes": "dynamic AppCDS archive prepared before measured runs",
+  "runtime_verification": "AppCDS archive=app-cds-328744.jsa; JAVA_TOOL_OPTIONS=-XX:SharedArchiveFile=/cds/app-cds-328744.jsa -Xshare:on"
+}
